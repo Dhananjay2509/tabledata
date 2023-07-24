@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="objectTable" border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Occupation</th>
+            <th>Edit</th>
+        </tr>
+        <tr>
+            <td contenteditable="true" id="nameCell"></td>
+            <td contenteditable="true" id="ageCell"></td>
+            <td contenteditable="true" id="occupationCell"></td>
+            <td><button onclick="saveChanges()">Save</button></td>
+        </tr>
+    </table>
+</body>
+<script src="index.js"></script>
+</html>
